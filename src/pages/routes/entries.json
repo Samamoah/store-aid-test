@@ -1,0 +1,48 @@
+{
+  "totalCount": 1,
+  "count": 1,
+  "offset": 0,
+  "limit": 20,
+  "links": {},
+  "sale_entries": [
+    {
+      "id": "44c2f05a-3a4e-4aac-b850-23e2450950f6",
+      "productId": "13d4b89a-82c8-49a0-beb6-df0db8cbc778",
+      "branchId": "8d0c6496-ec5c-408e-ba33-bfa616ea0a3e",
+      "customerId": null,
+      "discount": -0.5,
+      "costPrice": 2,
+      "sellingPrice": 2.5,
+      "quantity": 3,
+      "saleId": "126653c6-c793-4b5a-8eb6-bcdac6ef1867",
+      "entryDate": 1617021780,
+      "branchProductId": "3de9a5d7-9c82-47b3-9b91-fe76bc30dab4",
+      "created_at": 1617021786800,
+      "updated_at": 1617031306919,
+      "last_modified": 1617029414935,
+      "server_created_at": 1617021743587,
+      "lastModifiedBy": "6856cc2c-790c-473e-a969-b4a85f494f68",
+      "product": {
+        "id": "13d4b89a-82c8-49a0-beb6-df0db8cbc778",
+        "name": "10 Over 10 350ml Red Grapes + Cherry PB",
+        "description": null,
+        "summary": "10 Over 10 350ml Red Grapes + Cherry PB",
+        "measurementUnitId": "d711eaec-d517-4f0c-a72c-7caef2375eb4",
+        "barCode": "",
+        "manufacturerId": "d68c0d19-f51d-4824-b1bc-78a3a11c1967",
+        "brandId": "824b211b-0ce1-4fe2-a822-2a03a3ff88bb",
+        "productCategoryId": "fea89b80-9fc9-4fff-82b4-bad85b0f454e",
+        "weight": 0.35,
+        "image": "no_image.png",
+        "isTemporary": false,
+        "created_at": 1591030656231,
+        "updated_at": 1592903002471,
+        "adminLastModifiedBy": null,
+        "lastModifiedBy": null,
+        "last_modified": 1592903002471,
+        "server_created_at": 1592903002471,
+        "productSegmentEntryIds": []
+      }
+    }
+  ]
+}
