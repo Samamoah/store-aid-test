@@ -23,7 +23,7 @@ export default function AppAppBar() {
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
-            Store Aid
+            My Store Aid
           </Typography>
         </Toolbar>
       </AppBar>
