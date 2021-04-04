@@ -5,18 +5,10 @@ import Button from '@material-ui/core/Button';
 import moment from 'moment';
 import { Link as RouterLink } from 'react-router-dom';
 
-export default function Branch({
-  row,
-  isItemSelected,
-  labelId,
-  handleClick,
-  classes,
-}) {
+export default function Branch({ row, classes }) {
   return (
-    <TableRow hover tabIndex={-1} key={row.name}>
-      <TableCell id={labelId} scope="row">
-        {moment(row.date).format('DD/MM/YYYY')}
-      </TableCell>
+    <TableRow tabIndex={-1}>
+      <TableCell scope="row">{moment(row.date).format('DD/MM/YYYY')}</TableCell>
       <TableCell>{row.customer}</TableCell>
       <TableCell>{row.payment}</TableCell>
       <TableCell>
@@ -24,7 +16,6 @@ export default function Branch({
           classes={{
             root: classes.button,
           }}
-          color="primary"
           component={RouterLink}
           to={{
             pathname: `/sale/${row.branchId}/${row.id}`,

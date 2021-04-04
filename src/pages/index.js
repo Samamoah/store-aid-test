@@ -9,7 +9,7 @@ function Index({ classes, loading, ...parentProps }) {
   return (
     <div id="app">
       <AppAppBar />
-      <Container style={{ marginTop: 40 }}>
+      <Container style={{ marginTop: 40, minHeight: '100vh' }}>
         <Switch>
           {indexRoutes.map((prop, key) => {
             return (
