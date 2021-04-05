@@ -7,11 +7,3 @@ Store Aid React Developer Job Test
 ```javascript
 '/' = HomePage;
 ```
-
-```javascript
-'/branch/:id' = Branch Details with Sales page
-```
-
-```javascript
-'/sale/:branch_d/:sale_id' = Sale Details with Sale Entries page
-```
