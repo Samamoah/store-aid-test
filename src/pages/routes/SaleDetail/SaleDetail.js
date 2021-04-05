@@ -108,9 +108,10 @@ export default function Index(props) {
       <Helmet>
         <title>Sale( #{sale_id.substring(0, 5)} )</title>
       </Helmet>
-      <h2 style={{ textAlign: 'right', marginBottom: 20 }}>
-        Total Amount : {amount}
-      </h2>
+      <Grid container justify="space-between" style={{ marginBottom: 30 }}>
+        <h2>Sale( #{sale_id.substring(0, 5)} )</h2>
+        <h2>Total Amount : {amount}</h2>
+      </Grid>
       <CustomTable
         tableTitle={`Sale( #${sale_id.substring(0, 5)} ) entries`}
         headCells={headCells}
